@@ -1,0 +1,36 @@
+# Local environments, configuration and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+# Original/extracted data, databases and private model outputs
+*.zip
+*.csv
+*.tsv
+*.parquet
+*.sqlite*
+*.db
+*.db-*
+data/
+datasets/
+predictions/
+outputs/
+models/artifacts/
+*.pkl
+*.joblib
+*.log
+*.building
+
+# Internal reports and private spreadsheets
+reports/
+*.xlsx
+*.xls
+
+# Windows files
+Thumbs.db
+Desktop.ini
